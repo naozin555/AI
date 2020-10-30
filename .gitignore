@@ -1,4 +1,9 @@
 *.pyc
 *~
-__pycache__
+*__pycache__
+*DS_Store
+*result
+*.npz
+*.h5
 myvenv
+LeukemiaPrediction/leukemia/
