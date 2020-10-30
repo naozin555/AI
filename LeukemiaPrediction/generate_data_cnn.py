@@ -23,19 +23,19 @@ for index, classlabel in enumerate(classes):
 
     if index == 0:
         files = glob.glob(
-            f"leukemia/LK172 pres 45 10 34 19 p65_6_R5 _ R7 _ R10 _ {classlabel} _ cd 19 pos _ R2 _ R1_minh/*.tif")
+            f"LeukemiaPrediction/leukemia/LK172 pres 45 10 34 19 p65_6_R5 _ R7 _ R10 _ {classlabel} _ cd 19 pos _ R2 _ R1_minh/*.tif")
     elif index == 1:
         files = glob.glob(
-            f"leukemia/LK172 pres 45 10 34 19 p65_6_R5 _ R7 _ R10 _ {classlabel} _ cd 19 pos _ R2 _ R1/*.tif")
+            f"LeukemiaPrediction/leukemia/LK172 pres 45 10 34 19 p65_6_R5 _ R7 _ R10 _ {classlabel} _ cd 19 pos _ R2 _ R1/*.tif")
     elif index == 2:
         files = glob.glob(
-            f"leukemia/LK172 pres 45 10 34 19 p65_6_R5 _ R7 _ R10 _ {classlabel} _ cd 19 pos _ R2 _ R1_minh/*.tif")
+            f"LeukemiaPrediction/leukemia/LK172 pres 45 10 34 19 p65_6_R5 _ R7 _ R10 _ {classlabel} _ cd 19 pos _ R2 _ R1_minh/*.tif")
     elif index == 3:
         files = glob.glob(
-            f"leukemia/LK172 pres 45 10 34 19 p65_6_focused _ R6 _ R7 _ {classlabel} _ cd 19 pos _ R2 _ R1_minh/*.tif")
+            f"LeukemiaPrediction/leukemia/LK172 pres 45 10 34 19 p65_6_focused _ R6 _ R7 _ {classlabel} _ cd 19 pos _ R2 _ R1_minh/*.tif")
     elif index == 4:
         files = glob.glob(
-            f"leukemia/LK172 pres 45 10 34 19 p65_6_R5 _ R7 _ R10 _ {classlabel} _ cd 19 pos _ R2 _ R1_minh/*.tif")
+            f"LeukemiaPrediction/leukemia/LK172 pres 45 10 34 19 p65_6_R5 _ R7 _ R10 _ {classlabel} _ cd 19 pos _ R2 _ R1_minh/*.tif")
 
     # 各ファイルに下記の処理を施す
     for i, file in enumerate(files):

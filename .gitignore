@@ -5,5 +5,5 @@
 *result
 *.npz
 *.h5
-myvenv
+LeukemiaPrediction/myenv
 LeukemiaPrediction/leukemia/
