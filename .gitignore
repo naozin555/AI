@@ -7,3 +7,5 @@
 *.h5
 LeukemiaPrediction/myenv
 LeukemiaPrediction/leukemia/
+Numbers/myvenv
+Numbers/chromedriver
